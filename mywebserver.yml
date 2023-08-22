@@ -13,7 +13,7 @@
       state: started
     when: ansible_os_family=="Debian"
   - name: install webserver
-    yum3:
+    yum:
       name: httpd
       state: present
     
