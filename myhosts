@@ -1,2 +1,9 @@
+[webserver]
 172.31.41.244
+172.31.33.186
+
+[ubuntuservers]
+172.31.41.244
+
+[amazonserver]
 172.31.33.186
