@@ -12,13 +12,13 @@
       name: apache2 
       state: started
     when: ansible_os_family=="Debian"
-  - name: install apache2 webserver
+  - name: install git 
     yum:
-      name: httpd
+      name: git
       state: present 
     when: ansible_os_family=="RedHat"
-  - name: start webserver 
+  - name: start git
     service:
-      name: httpd
+      name: git
       state: started
     when: ansible_os_family=="RedHat"
