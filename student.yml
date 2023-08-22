@@ -1,0 +1,16 @@
+---
+- students:
+  - name: raju
+    phno: 8688957803
+    email: raju@gmail.com
+    address:
+    - dno: 1/23
+      village: salabad
+      district: kadapa
+  - name: kairoon
+    phno: 9347615076
+    email: kairoon@gmail.com
+    address:
+    - dno: 1/23
+      village: salabad
+      district: kadapa
