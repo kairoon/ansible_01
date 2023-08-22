@@ -15,8 +15,8 @@
   - name: install webserver
     yum:
       name: httpd
-      state: present 
-    when: ansible_os_family=="RedHat"
+      state: present
+    
   - name: start apache2
     service:
       name: httpd
