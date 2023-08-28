@@ -8,6 +8,3 @@
 [amazonserver]
 172.31.32.60
 
-# [mywebservers:vars]
-# webpackubuntu= apache2
-# webpackredhat= httpd
