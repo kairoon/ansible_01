@@ -30,5 +30,5 @@
   - name: install git 
     apt:
       name: git 
-      state: present 
+      state: absent 
     notify: restartwebserver
