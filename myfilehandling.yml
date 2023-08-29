@@ -19,4 +19,4 @@
     get_url:
       url: http://mirrors.jenkins.io/war-stable/latest/jenkins.war
       dest: /home/ubuntu/jenkins.war
-    force_basic_auth: yes
+    Force_basic_auth: yes
