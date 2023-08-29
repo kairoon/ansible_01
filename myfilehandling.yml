@@ -20,3 +20,15 @@
       url: https://pkg.jenkins.io/debian/jenkins.io-2023.key
       dest: /home/ubuntu/jenkins.war
       force_basic_auth: yes
+
+  handlers:
+  - name: restartwebserver
+    service:
+      name: apache2
+      state: restarted 
+  
+  - name: install git 
+    apt:
+      name: git 
+      state: present 
+    notify: restartwebserver
