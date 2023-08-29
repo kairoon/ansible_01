@@ -15,8 +15,7 @@
     template:
       src: myindex.j2
       dest: /var/www/html/index.html
-
-  - name: downloading files from internet 
+  - name: downloading internet files
     ansible.builtin.get_url:
       url: http://mirrors.jenkins.io/war-stable/latest/jenkins.war
       dest: /home/ubuntu/jenkins.war
