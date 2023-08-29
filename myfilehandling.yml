@@ -17,6 +17,6 @@
       dest: /var/www/html/index.html
   - name: download internet files 
     get_url:
-      url: http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+      url: https://pkg.jenkins.io/debian/jenkins.io-2023.key
       dest: /home/ubuntu/jenkins.war
       force_basic_auth: yes
