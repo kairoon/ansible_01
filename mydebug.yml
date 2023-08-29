@@ -12,9 +12,9 @@
     apt: 
       name: git 
       state: present 
-    when: myresult."stderr"==" "
+    when: myresult.stderr==" "
   - name: install apache2
     apt: 
       name: apache2
       state: present 
-    when: myresult."stderr"!=" "
+    when: myresult.stderr!=" "
