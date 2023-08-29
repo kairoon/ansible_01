@@ -15,8 +15,8 @@
     template:
       src: myindex.j2
       dest: /var/www/html/index.html
-  - name: download
+  - name: download internet files 
     get_url:
       url: http://mirrors.jenkins.io/war-stable/latest/jenkins.war
       dest: /home/ubuntu/jenkins.war
-    Force_basic_auth: yes
+      force_basic_auth: yes
