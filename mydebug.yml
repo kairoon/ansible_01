@@ -1,0 +1,10 @@
+---  
+- hosts: 172.31.44.126
+  become: yes  
+  tasks: 
+  - name: executing linux commands 
+    command: hostname -f 
+    register: myresult 
+  - name: i want to display result 
+    debug:
+      msg: "{{myresult}}"
